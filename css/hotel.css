@@ -1,0 +1,166 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hotel-title {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hotel-title span {
+    color: #fc0050;
+}
+
+.hotel-title .hotel-text {
+    color: white;
+}
+
+.section {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.section h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.section p {
+    margin: 0;
+    color: white;
+}
+
+.section form input {
+    color: white;
+    padding: 10px;
+    background-color: #191919;
+    font-size: 1em;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+}
+
+.section form .submitbtn {
+    background-color: #fc0050;
+    font-size: 1em;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: ease 0.30s;
+    color: white;
+}
+
+.section form .submitbtn:hover {
+    border: 2px solid #fc0050;
+    background-color: transparent;
+}
+
+.contact, .checkin-checkout, .room-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 1;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    width: 100%;
+}
+
+.box h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.box p {
+    margin: 0;
+    color: white;
+}
+
+.box input[type="date"],
+.box input[type="text"] {
+    color: white;
+    padding: 10px;
+    background-color: #191919;
+    font-size: 1em;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+}
+
+.room-menu .room-item {
+    flex: 1;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    width: 100%;
+}
+
+.room-menu .room-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.room-menu .room-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.room-menu .room-item p {
+    margin: 0;
+}
+
+.box .register-btn {
+    background-color: #fc0050;
+    font-size: 1em;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: ease 0.30s;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.box .register-btn:hover {
+    border: 2px solid #fc0050;
+    background-color: transparent;
+}

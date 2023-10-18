@@ -1,0 +1,62 @@
+.flight-body {
+    background-color: #101010;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flight {
+    padding: 110px 30%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.flight-form h1 {
+    font-size: 80px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.flight-form h1 span {
+    color: #fc0050;
+}
+
+.flight-form {
+    color: white;
+    font-size: 20px;
+}
+
+.flight-form form input {
+    color: white;
+    padding: 17px;
+    background-color: #191919;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.flight-form h4 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #fc0050;
+}
+
+.flight-form form .submitbtn {
+    display: inline-block;
+    background-color: #fc0050;
+    font-size: 27px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 60px;
+    width: 220px;
+    cursor: pointer;
+    transition: ease 0.30s;
+}
+
+.flight-form form .submitbtn:hover {
+    border: 2px solid #fc0050;
+    background-color: transparent;
+    transform: scale(1.1);
+}
